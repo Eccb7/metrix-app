@@ -7,12 +7,18 @@
     "@testing-library/jest-dom": "^5.17.0",
     "@testing-library/react": "^14.0.0",
     "@testing-library/user-event": "^14.4.3",
+    "axios": "^1.4.0",
+    "http-proxy-middleware": "^2.0.6",
+    "mdb-react-ui-kit": "^6.2.0",
+    "mdb-ui-kit": "^6.4.1",
+    "node-sass": "^9.0.0",
     "react": "^18.2.0",
     "react-dom": "^18.2.0",
     "react-redux": "^8.1.2",
+    "react-router-dom": "^6.15.0",
     "react-scripts": "5.0.1",
-    "node-sass": "^9.0.0",
     "redux": "^4.2.1",
+    "redux-thunk": "^2.4.2",
     "web-vitals": "^3.4.0"
   },
   "scripts": {
@@ -54,5 +60,6 @@
     "stylelint-config-standard": "^34.0.0",
     "stylelint-csstree-validator": "^3.0.0",
     "stylelint-scss": "^5.0.1"
-  }
+  },
+  "proxy": "https://www.mmobomb.com"
 }
