@@ -1,0 +1,49 @@
+.navbar-container {
+  background-color: #da484881;
+  color: white;
+  padding: 10px 20px;
+}
+
+.navbar-list {
+  display: flex;
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  align-items: center;
+}
+
+.navbar-list li {
+  margin-right: 20px;
+  font-size: 18px;
+}
+
+.navbar-list li a {
+  color: white;
+  text-decoration: none;
+  font-size: 18px;
+}
+
+.navbar-center {
+  flex-grow: 1;
+  text-align: center;
+}
+
+.navbar-icons {
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+}
+
+.navbar-icons svg {
+  font-size: 24px;
+  margin-left: 10px;
+}
+
+.navbar-list a {
+  color: white;
+  text-decoration: none;
+}
+
+.navbar-list a:hover {
+  text-decoration: underline;
+}
