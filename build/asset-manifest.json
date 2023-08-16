@@ -1,0 +1,23 @@
+{
+  "files": {
+    "main.css": "/metrix-app/static/css/main.4a608273.css",
+    "main.js": "/metrix-app/static/js/main.2624abfc.js",
+    "static/js/496.d397dba6.chunk.js": "/metrix-app/static/js/496.d397dba6.chunk.js",
+    "static/media/fa-solid-900.ttf": "/metrix-app/static/media/fa-solid-900.d75e3fd1eb12e9bd6655.ttf",
+    "static/media/fa-brands-400.ttf": "/metrix-app/static/media/fa-brands-400.016b4a6cdced82ab3aa1.ttf",
+    "static/media/fa-solid-900.woff2": "/metrix-app/static/media/fa-solid-900.b6879d41b0852f01ed5b.woff2",
+    "static/media/fa-brands-400.woff2": "/metrix-app/static/media/fa-brands-400.878f31251d960bd6266f.woff2",
+    "static/media/fa-regular-400.ttf": "/metrix-app/static/media/fa-regular-400.50701fbb8177c2dde530.ttf",
+    "static/media/fa-regular-400.woff2": "/metrix-app/static/media/fa-regular-400.b041b1fa4fe241b23445.woff2",
+    "static/media/fa-v4compatibility.ttf": "/metrix-app/static/media/fa-v4compatibility.c6a0c95b0a95c4553700.ttf",
+    "static/media/fa-v4compatibility.woff2": "/metrix-app/static/media/fa-v4compatibility.1bac2991f3dbfa237aec.woff2",
+    "index.html": "/metrix-app/index.html",
+    "main.4a608273.css.map": "/metrix-app/static/css/main.4a608273.css.map",
+    "main.2624abfc.js.map": "/metrix-app/static/js/main.2624abfc.js.map",
+    "496.d397dba6.chunk.js.map": "/metrix-app/static/js/496.d397dba6.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.4a608273.css",
+    "static/js/main.2624abfc.js"
+  ]
+}

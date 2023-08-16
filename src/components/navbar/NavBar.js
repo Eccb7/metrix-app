@@ -1,6 +1,6 @@
 import React from 'react';
 import { Link } from 'react-router-dom';
-import { BsChevronLeft, BsMic, BsGear } from 'react-icons/bs';
+import { FaGear, FaMicrophone, FaLessThan } from 'react-icons/fa6';
 import './navbar.css';
 
 function NavBar() {
@@ -9,7 +9,7 @@ function NavBar() {
       <ul className="navbar-list">
         <li>
           <Link to="/">
-            <BsChevronLeft />
+            <FaLessThan />
           </Link>
           2023
         </li>
@@ -17,8 +17,8 @@ function NavBar() {
           My Games
         </li>
         <li className="navbar-icons">
-          <BsMic />
-          <BsGear />
+          <FaMicrophone />
+          <FaGear />
         </li>
       </ul>
     </nav>
