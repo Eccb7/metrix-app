@@ -1,4 +1,7 @@
+@import '@fortawesome/fontawesome-free/css/all.css';
+
 body {
+  background-color: rgb(233, 106, 127);
   margin: 0;
   font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
     'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
