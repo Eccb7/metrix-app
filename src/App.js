@@ -2,9 +2,10 @@ import React from 'react';
 import { BrowserRouter as Router, Routes, Route } from 'react-router-dom';
 import { Provider } from 'react-redux';
 import store from './redux/store';
-import Home from './components/Home';
-import DetailsPage from './components/Details';
-import NavBar from './components/NavBar'; // Import the NavBar component
+import Home from './components/home/Home';
+import DetailsPage from './components/details/Details';
+import NavBar from './components/navbar/NavBar';
+import './App.css';
 
 function App() {
   return (
