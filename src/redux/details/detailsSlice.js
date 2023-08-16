@@ -4,8 +4,18 @@ import { createAsyncThunk, createSlice } from '@reduxjs/toolkit';
 export const fetchGameDetails = createAsyncThunk(
   'details/fetchGameDetails',
   async (gameId) => {
+    const options = {
+      method: 'GET',
+      url: 'https://mmo-games.p.rapidapi.com/game',
+      params: { id: gameId },
+      headers: {
+        'X-RapidAPI-Key': '97ef271dcdmshfa9697705cfd313p12447cjsn6c2ce124cc77',
+        'X-RapidAPI-Host': 'mmo-games.p.rapidapi.com',
+      },
+    };
+
     try {
-      const response = await axios.get(`/api1/game?id=${gameId}`);
+      const response = await axios.request(options);
       return response.data;
     } catch (error) {
       throw new Error('Error fetching game details');

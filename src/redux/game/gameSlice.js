@@ -2,17 +2,30 @@ import axios from 'axios';
 import { createAsyncThunk, createSlice } from '@reduxjs/toolkit';
 
 export const fetchGames = createAsyncThunk('games/fetchGames', async () => {
-  const response = await axios.get('/api1/games');
-  return response.data.map((obj) => ({
-    id: obj.id,
-    title: obj.title,
-    genre: obj.genre,
-    description: obj.description,
-    image: obj.thumbnail,
-    views: obj.views,
-    game_url: obj.game_url,
-    releaseDate: obj.release_date,
-  }));
+  const options = {
+    method: 'GET',
+    url: 'https://mmo-games.p.rapidapi.com/games',
+    headers: {
+      'X-RapidAPI-Key': '97ef271dcdmshfa9697705cfd313p12447cjsn6c2ce124cc77',
+      'X-RapidAPI-Host': 'mmo-games.p.rapidapi.com',
+    },
+  };
+
+  try {
+    const response = await axios.request(options);
+    return response.data.map((obj) => ({
+      id: obj.id,
+      title: obj.title,
+      genre: obj.genre,
+      description: obj.description,
+      image: obj.thumbnail,
+      views: obj.views,
+      game_url: obj.game_url,
+      releaseDate: obj.release_date,
+    }));
+  } catch (error) {
+    return error;
+  }
 });
 
 const gameSlice = createSlice({
