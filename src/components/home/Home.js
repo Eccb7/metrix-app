@@ -46,7 +46,7 @@ function HomePage() {
         </select>
       </div>
       <div className="carousel-container">
-        <Carousel showArrows showStatus>
+        <Carousel showArrows showStatus showThumbs={false}>
           {filteredGames.slice(0, 9).map((game) => (
             <div className="carousel-item" key={game.id}>
               <div className="carousel-item-info">
