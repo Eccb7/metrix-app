@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/metrix-app/static/css/main.4a608273.css",
-    "main.js": "/metrix-app/static/js/main.fc5623b1.js",
+    "main.js": "/metrix-app/static/js/main.9092c2a5.js",
     "static/js/496.d397dba6.chunk.js": "/metrix-app/static/js/496.d397dba6.chunk.js",
     "static/media/fa-solid-900.ttf": "/metrix-app/static/media/fa-solid-900.d75e3fd1eb12e9bd6655.ttf",
     "static/media/fa-brands-400.ttf": "/metrix-app/static/media/fa-brands-400.016b4a6cdced82ab3aa1.ttf",
@@ -13,11 +13,11 @@
     "static/media/fa-v4compatibility.woff2": "/metrix-app/static/media/fa-v4compatibility.1bac2991f3dbfa237aec.woff2",
     "index.html": "/metrix-app/index.html",
     "main.4a608273.css.map": "/metrix-app/static/css/main.4a608273.css.map",
-    "main.fc5623b1.js.map": "/metrix-app/static/js/main.fc5623b1.js.map",
+    "main.9092c2a5.js.map": "/metrix-app/static/js/main.9092c2a5.js.map",
     "496.d397dba6.chunk.js.map": "/metrix-app/static/js/496.d397dba6.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.4a608273.css",
-    "static/js/main.fc5623b1.js"
+    "static/js/main.9092c2a5.js"
   ]
 }
