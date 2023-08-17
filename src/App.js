@@ -10,7 +10,7 @@ import './App.css';
 function App() {
   return (
     <Provider store={store}>
-      <Router>
+      <Router basename="metrix-app">
         <div>
           <NavBar />
           <Routes>
