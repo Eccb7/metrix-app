@@ -103,8 +103,17 @@ function DetailsPage() {
               </td>
             </tr>
             <tr className="tables">
-              <td className="game-property" />
-              <td className="game-value" />
+              <td className="game-property">Play Online:</td>
+              <td className="game-value">
+                <a href={selectedGame.game_url} target="_blank" rel="noreferrer">Click here</a>
+              </td>
+              <td>
+                <Link to="/" className="detail-link">
+                  <button type="button" className="detail-button">
+                    <span className="material-icons">east</span>
+                  </button>
+                </Link>
+              </td>
             </tr>
           </tbody>
         </table>
