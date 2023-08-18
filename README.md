@@ -17,7 +17,8 @@
   - [🛠 Built With](#built-with)
     - [Tech Stack](#tech-stack)
     - [Key Features](#key-features)
-  <!-- - [🚀 Live Demo](#live-demo) -->
+  - [🚀 Live Demo](#live-demo)
+  - [Project Walkthrough](#walkthrough)
 - [💻 Getting Started](#getting-started)
   - [Setup](#setup)
   - [Prerequisites](#prerequisites)
@@ -76,9 +77,12 @@ Welcome to **game-metrix-app!** This is a web application that allows users to d
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 <!-- LIVE DEMO -->
 
-<!-- ## 🚀 Live Demo <a name="live-demo"></a> -->
+## 🚀 Live Demo <a name="live-demo"></a>
 
-<!-- - [Live Demo Link](https://github.com/Eccb7/book-stores/) -->
+- [Live Demo Link](https://eccb7.github.io/metrix-app/)
+
+- [walkthrough](https://www.loom.com/share/462ee0248bb5448084380f08d94ddf0c?sid=fe176d66-49b8-4898-8729-b01ada87e9ca)
+
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
