@@ -81,6 +81,8 @@ Welcome to **game-metrix-app!** This is a web application that allows users to d
 
 - [Live Demo Link](https://eccb7.github.io/metrix-app/)
 
+## Walkthrough <a name="walkthrough"></a>
+
 - [walkthrough](https://www.loom.com/share/462ee0248bb5448084380f08d94ddf0c?sid=fe176d66-49b8-4898-8729-b01ada87e9ca)
 
 
